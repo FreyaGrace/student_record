@@ -1,0 +1,46 @@
+# Ignore compiled files
+*.exe
+*.o
+*.out
+*.obj
+
+# Ignore build system files
+*.dll
+*.lib
+*.so
+
+# Ignore debug files
+*.pdb
+*.idb
+
+# VS Code settings folder
+.vscode/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Backup/swap files
+*~
+*.swp
+*.bak
+
+# Visual Studio (if ever used)
+*.sln
+*.vcxproj
+*.vcxproj.user
+*.user
+*.ncb
+*.log
+ipch/
+*.opensdf
+*.sdf
+
+# CMake (optional)
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Any custom build folder (change if needed)
+build/
